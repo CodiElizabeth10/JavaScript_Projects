@@ -11,7 +11,7 @@ function changeColor(newColor) {
 
     
   function myFunction() {
-    var sentence="I am learning";
+    var sentence="I am learning<br>";
     sentence += "a lot from this program";
     document.getElementById("concatenate").innerHTML=sentence;
 }
