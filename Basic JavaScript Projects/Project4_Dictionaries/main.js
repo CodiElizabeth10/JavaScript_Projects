@@ -1,5 +1,5 @@
 function my_Dictionary(){
-    var Animal={
+    var Animal={                                //dictionary kvp example
         Species:"Dog",
         Color: "Black",
         Breed: "Labrador",
@@ -10,7 +10,7 @@ function my_Dictionary(){
 }
 
 function Meow(){
-    var Animal={
+    var Animal={                                    //undefined kvp example
     Species: "Cat",
     Color: "Silver",
     Breed: "Ragdoll",
