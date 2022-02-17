@@ -95,7 +95,7 @@ document.getElementById("false").innerHTML=isNaN('sunday monday tuesday');      
 }
 
 function my_True(){
-document.getElementById("true").innerHTML=isNaN('183');                           //false nan example
+document.getElementById("true").innerHTML=isNaN('183');                           //fal se nan example
 } 
 
 
