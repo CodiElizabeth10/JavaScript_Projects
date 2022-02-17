@@ -44,15 +44,15 @@ function get_Time() {
 
 function Age_Function() {
     Age = document.getElementById("Age").value;
-    if (age >=18) {
+    if (Age >=18) {
         Vote="You are old enough to vote!";
     }
     else {
         Vote= "You are not old enough to vote yet!";
     }
-    document.getElementById("How_old_are_you?").innerHTML= "Vote";
+    document.getElementById("How_old_are_you?").innerHTML= Vote;
 }
-console.log(Age_Function);
+
 
 //IF/ELSE statements
 
