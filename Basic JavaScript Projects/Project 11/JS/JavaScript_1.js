@@ -26,3 +26,22 @@ function Color_Function() {
     }
     document.getElementById("Output").innerHTML = Color_Output;
 }
+
+//GET ELEMENT BY CLASS NAME METHOD
+function Hello_World_Function() {
+    var A = document.getElementsByClassName("Click");
+    A[0].innerHTML = "The text has changed!";
+}
+
+//CANVAS ELEMENT AND BACKGROUND
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createLinearGradient(0, 0, 300, 0);
+grd.addColorStop(0, "pink");
+grd.addColorStop(1, "white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80);

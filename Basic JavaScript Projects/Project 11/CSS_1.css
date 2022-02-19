@@ -1,0 +1,12 @@
+html {background-color: rgb(192, 197, 151)}
+
+
+input[type=text] {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 80, 67);
+    border-radius: 8px;
+  }
+  
