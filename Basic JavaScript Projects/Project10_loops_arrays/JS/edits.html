@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/main.js"></script>
+</head>
+    <body>
+       <p id="Loop"></p>
+       <button onclick="Call_Loop()">Click here to execute loop</button>
+
+       <p id="demo"></p>
+       <script>
+        var txt = "demo demo demo";
+        var len = txt.length;
+        document.getElementById("demo").innerHTML = len;
+        </script>
+        
+        <p id="List_of_Instruments"></p>
+        <button onclick="for_Loop()">Click here</button>
+
+        <p id="Cat"></p>
+        <button onclick="cat_pics()">Click here</button>
+   
+   
+       <p id="Constant"></p>
+       <button onclick="constant_function()">Click here</button>
+
+       <p id="test"></p>
+
+      <p id="Car_Object"></p>
+      
+      <p id="break"></p>
+
+      <p id="continue"></p>
+
+    </body>
+</html>
+
+
+//BREAK AND CONTINUE
+let text = "";
+for (let f = 7; f < 12; f++) {
+  if (f === 6) { break; }
+  text += "The number is " + f + "<br>";
+}
+
+document.getElementById("break").innerHTML = text;
+
+
+let text = "";
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { continue; }
+  text += "The number is " + i + "<br>";
+}
+document.getElementById("continue").innerHTML = text;
+
+let text = "";
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { break; }
+  text += "The number is " + i + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+
+let text = "";
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { continue; }
+  text += "The number is " + i + "<br>";
+}
+document.getElementById("demo1").innerHTML = text;
+<p id="break"></p>
+
+<p id="continue"></p>
+
+<p id="demo"></p>
+
+<p id="demo1"></p>
