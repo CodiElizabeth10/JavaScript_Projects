@@ -69,22 +69,16 @@ let car = {
 };
 document.getElementById("Car_Object").innerHTML = car.description();
 
-
-//BREAK AND CONTINUE
 let text = "";
-for (let f = 7; f < 12; f++) {
-  if (f === 6) { break; }
-  text += "The number is " + f + "<br>";
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { break; }
+  text += "The number is " + i + "<br>";
 }
-
-document.getElementById("break").innerHTML = text;
-
+document.getElementById("demo").innerHTML = text;
 
 let text = "";
 for (let i = 0; i < 10; i++) {
   if (i === 3) { continue; }
   text += "The number is " + i + "<br>";
 }
-document.getElementById("continue").innerHTML = text;
-
-
+document.getElementById("demo1").innerHTML = text;
